@@ -43,6 +43,9 @@ this, you can always run `terraform output endpoint` to find it again.
 
 ## Performance Test
 
+Below are some test results of 100,000 requests over 50 concurrent requests.
+
+```
 Benchmarking 92hlxl13mf.execute-api.eu-west-2.amazonaws.com (be patient)
 Completed 10000 requests
 Completed 20000 requests
@@ -96,3 +99,4 @@ Percentage of the requests served within a certain time (ms)
   98%     62
   99%     66
  100%   1566 (longest request)
+```
