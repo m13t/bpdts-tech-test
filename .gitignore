@@ -1,0 +1,13 @@
+# Ignore terraform working directory
+.terraform
+
+# Ignore local state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Don't add payload files
+payload.zip
+layer.zip
+
+# Ignore python dependencies
+/layers/python
