@@ -3,6 +3,7 @@
 Deploying the application
 
 Prerequisites:
+* an AWS account
 * Terraform >= 0.12.x
 * Python >= 3.7
 * setup_tools
